@@ -1,6 +1,13 @@
+/*#####################*\
+###    ####     ###    ##	TTK4235 SPRING 2018
+## ########### ### ######  	ELEVATOR C-PROJECT
+## #   #####    ##    ###	AMUND MARTON
+## ### ###### #### ### ##	VEBJØRN TANDBERG
+###    ###### #####   ###
+\*#####################*/
+
 #include "source/state_machine.h"
 #include <stdio.h>
-
 
 int main() {
     	// Initialize hardware
@@ -17,4 +24,4 @@ int main() {
     	return 0;
 }
 
-
+//end

@@ -1,6 +1,6 @@
 #include "stop_handler.h"
 
-void stop_emergency_stop(struct elevator_data * inputmap){
+void stop_emergency_stop(struct elevator_data * inputmap){//function for the stop button
 	if(inputmap->stop){
 		inputmap->dir = 0;
 		elev_set_motor_direction(DIRN_STOP);//stop elevator
